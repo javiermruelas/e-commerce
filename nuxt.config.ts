@@ -4,8 +4,6 @@ export default defineNuxtConfig({
 	modules: [
 		// Simple usage
 		'@nuxtjs/eslint-module',
-
-		// With options
-		// ['@nuxtjs/eslint-module', { /* module options */ }]
+		'@pinia/nuxt',
 	]
 });
