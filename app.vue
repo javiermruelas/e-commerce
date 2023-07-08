@@ -1,5 +1,6 @@
 <template>
   <div>
-    <NuxtWelcome />
+    <!-- <NuxtWelcome /> -->
+    <h1 class="text-3xl font-bold underline">TEST</h1>
   </div>
 </template>
