@@ -2,10 +2,13 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    // Simple usage
-    "@nuxtjs/eslint-module",
     "@pinia/nuxt",
+    "@vueuse/nuxt",
+    "@nuxtjs/eslint-module"
   ],
+  imports: {
+    
+  },
   css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
