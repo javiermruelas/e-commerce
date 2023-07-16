@@ -1,9 +1,9 @@
-<script setup lang="ts">
-import { useMouse } from "@vueuse/core";
-const { x, y } = useMouse();
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">TEST</h1>
-  <div>pos: {{ x }}, {{ y }}</div>
+  <div>
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </div>
 </template>
