@@ -1,24 +1,14 @@
 <template>
   <div
     :id="productId"
-    class="max-h-96 flex flex-row align-center justify-center"
+    class="shadow-sm bg-neutral-100 p-2 grid grid-cols-2 gap-1"
   >
-    <img
-      :src="image"
-      :alt="description"
-      class="max-h-64 w-6/12 align-center justify-center"
-    />
-    <div
-      id="productInfo"
-      class="w-6/12 flex flex-col align-center justify-center"
-    >
-      <span class="text-xs">{{ id }}</span>
+    <img :src="image" :alt="description" class="w-max h-max" />
+    <div id="productInfo" class="flex flex-col align-center justify-center">
       <h1 class="text-base">{{ title }}</h1>
       <p class="text-sm">{{ description }}</p>
       <span class="text-base">{{ price }}</span>
-      <p class="text-sm">
-        Rated at {{ rating.rate }} stars by {{ rating.count }} users!
-      </p>
+      <RatingStars :rating="rating" />
       <span class="text-xs">{{ category.toUpperCase() }}</span>
     </div>
   </div>

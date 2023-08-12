@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-neutral-50">
     <header>
       <nav>
         <ul>
