@@ -1,6 +1,6 @@
 <template>
   <a href="#" class="block group">
-    <div :id="productId" class="shadow-sm bg-neutral-100 p-2 grid rounded">
+    <div class="shadow-sm bg-neutral-100 p-2 grid rounded">
       <img
         :src="image"
         :alt="description"
@@ -27,7 +27,6 @@ const props = defineProps<{
   image: string;
   category: string;
 }>();
-const productId = `product-${props.id}`;
 const descCharLimit = 45;
 const shortenedDesc =
   props.description.length > 20
