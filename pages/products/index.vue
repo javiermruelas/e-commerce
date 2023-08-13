@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-import mockData from '../../assets/mock/mock-ecommerce-data.json';
+import mockData from "../../assets/mock/mock-ecommerce-data.json";
 const products = mockData;
 console.log(products);
 </script>
