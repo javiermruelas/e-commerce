@@ -1,5 +1,5 @@
 <template>
-  <p>Sign In</p>
+  <p>Cart</p>
 </template>
 
 <script lang="ts" setup></script>

@@ -21,10 +21,9 @@
 
 <script lang="ts" setup>
 const headerLinks = [
-  { href: "/account-settings", label: "Account Settings" },
-  { href: "/support", label: "Support" },
-  { href: "/license", label: "License" },
   { href: "/products", label: "Products" },
-  { href: "/sign-out", label: "Sign Out" },
+  { href: "/sign-in", label: "Sign In" },
+  { href: "/account-settings", label: "Account Settings" },
+  { href: "/cart", label: "Cart" }
 ];
 </script>
