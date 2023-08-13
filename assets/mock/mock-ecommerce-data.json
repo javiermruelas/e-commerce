@@ -13,7 +13,7 @@
   },
   {
     "product_name": "Sneakers",
-    "price": 120.00,
+    "price": 120.0,
     "brand": "MegaMart",
     "category": "Footwear",
     "description": "High-quality sneakers for all occasions, designed for both comfort and style.",
@@ -25,7 +25,7 @@
   },
   {
     "product_name": "Headphones",
-    "price": 175.00,
+    "price": 175.0,
     "brand": "ValuePlus",
     "category": "Electronics",
     "description": "Immerse yourself in music with these stylish headphones that offer clear sound and noise isolation.",
@@ -37,7 +37,7 @@
   },
   {
     "product_name": "Phone case",
-    "price": 10.00,
+    "price": 10.0,
     "brand": "GlobalBuy",
     "category": "Electronics",
     "description": "Protect your phone with this sleek and durable phone case that combines style and functionality.",
@@ -133,7 +133,7 @@
   },
   {
     "product_name": "External hard drive",
-    "price": 99.00,
+    "price": 99.0,
     "brand": "QuickBuy",
     "category": "Electronics",
     "description": "Securely store and backup your important files with this portable external hard drive.",
@@ -181,7 +181,7 @@
   },
   {
     "product_name": "Gaming console",
-    "price": 300.00,
+    "price": 300.0,
     "brand": "GlobalBuy",
     "category": "Electronics",
     "description": "Experience the thrill of gaming with this high-performance gaming console.",
@@ -277,7 +277,7 @@
   },
   {
     "product_name": "Sofa",
-    "price": 499.00,
+    "price": 499.0,
     "brand": "CozyLiving",
     "category": "Furniture",
     "description": "Relax in comfort on this cozy sofa that adds charm to your living room.",
@@ -301,7 +301,7 @@
   },
   {
     "product_name": "Wardrobe",
-    "price": 199.00,
+    "price": 199.0,
     "brand": "StyleInnovations",
     "category": "Furniture",
     "description": "Organize your clothes with this spacious and functional wardrobe solution.",
@@ -409,7 +409,7 @@
   },
   {
     "product_name": "Luxury Bath Towel Set",
-    "price": 149.00,
+    "price": 149.0,
     "brand": "PlushPalace",
     "category": "Bath",
     "description": "Wrap yourself in opulent comfort with this plush and absorbent luxury bath towel set.",
@@ -421,7 +421,7 @@
   },
   {
     "product_name": "Silver Plated Flatware",
-    "price": 299.00,
+    "price": 299.0,
     "brand": "SilverElegance",
     "category": "Dining",
     "description": "Dine in style with this meticulously crafted silver plated flatware set.",
@@ -481,7 +481,7 @@
   },
   {
     "product_name": "Velvet Upholstered Chair",
-    "price": 599.00,
+    "price": 599.0,
     "brand": "VelvetVogue",
     "category": "Furniture",
     "description": "Add a touch of glamour to your space with this elegant velvet upholstered chair.",
@@ -505,7 +505,7 @@
   },
   {
     "product_name": "Bar Cart",
-    "price": 349.00,
+    "price": 349.0,
     "brand": "BaroqueBoulevard",
     "category": "Furniture",
     "description": "Entertain in style with this elegant bar cart that adds sophistication to your home.",
@@ -625,7 +625,7 @@
   },
   {
     "product_name": "Laptop",
-    "price": 799.00,
+    "price": 799.0,
     "brand": "TechMaster",
     "category": "Computers",
     "description": "Stay productive and entertained with this powerful and sleek laptop.",
@@ -673,7 +673,7 @@
   },
   {
     "product_name": "Smartphone",
-    "price": 599.00,
+    "price": 599.0,
     "brand": "TechWave",
     "category": "Electronics",
     "description": "Stay connected and productive on-the-go with this feature-packed smartphone.",
