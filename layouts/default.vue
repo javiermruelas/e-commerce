@@ -1,21 +1,8 @@
 <template>
   <div class="bg-neutral-50">
-    <header>
-      <nav>
-        <ul>
-          <NuxtLink
-            v-for="(link, index) in headerLinks"
-            :key="index"
-            :to="link.href"
-            >{{ link.label }}</NuxtLink
-          >
-        </ul>
-      </nav>
-    </header>
+    <HeaderComponent :header-links="headerLinks"></HeaderComponent>
     <slot />
-    <footer>
-      <nav></nav>
-    </footer>
+    <FooterComponent></FooterComponent>
   </div>
 </template>
 
