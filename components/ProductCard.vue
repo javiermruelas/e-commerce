@@ -1,17 +1,19 @@
 <template>
-  <div
+  <a href="#" class="block group">
+    <div
     :id="productId"
-    class="shadow-sm bg-neutral-100 p-2 grid grid-cols-2 gap-4 rounded"
+    class="shadow-sm bg-neutral-100 p-2 grid rounded"
   >
-    <img :src="image" :alt="description" class="w-max h-max" />
+    <img :src="image" :alt="description" class="object-cover w-full rounded aspect-square" />
     <div id="productInfo" class="flex flex-col align-center justify-center">
-      <h1 class="text-base">{{ title }}</h1>
-      <p class="text-sm">{{ shortenedDesc }}</p>
-      <span class="text-base">{{ '$' + price }}</span>
+      <h1 class="text-lg font-bold">{{ '$' + price }}</h1>
+      <h2 class="text-base font-bold">{{ title }}</h2>
+      <p class="text-sm font-light">{{ shortenedDesc }}</p>
       <RatingStars :rating="rating" />
       <span class="text-xs">{{ category.toUpperCase() }}</span>
     </div>
   </div>
+  </a>
 </template>
 
 <script lang="ts" setup>

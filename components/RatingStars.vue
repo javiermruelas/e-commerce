@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto">
+  <div class="flex px-4">
     <div
       v-for="(star, index) in stars"
       :key="index"
@@ -7,7 +7,7 @@
       <div class="star w-8 h-8"></div>
     </div>
     
-    <p class="text-center"><span class="text-sm">{{ rating.rate }}</span> <span class="text-sm">({{ rating.count }})</span></p>
+    <span>{{ rating.count + 'ratings' }}</span>
   </div>
 </template>
 
