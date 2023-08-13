@@ -7,7 +7,7 @@
     <img :src="image" :alt="description" class="object-cover w-full rounded aspect-square" />
     <div id="productInfo" class="flex flex-col align-center justify-center">
       <h1 class="text-lg font-bold">{{ '$' + price }}</h1>
-      <h2 class="text-base font-bold">{{ title }}</h2>
+      <h2 class="text-base font-bold">{{ product_name }}</h2>
       <p class="text-sm font-light">{{ shortenedDesc }}</p>
       <RatingStars :rating="rating" />
       <span class="text-xs">{{ category.toUpperCase() }}</span>
@@ -17,9 +17,9 @@
 </template>
 
 <script lang="ts" setup>
+// to do: update props to new data structure
 const props = defineProps<{
-  id: number;
-  title: string;
+  product_name: string;
   description: string;
   price: number;
   rating: { rate: number; count: number };

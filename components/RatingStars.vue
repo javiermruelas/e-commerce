@@ -7,7 +7,7 @@
       <div class="star w-8 h-8"></div>
     </div>
     
-    <span>{{ rating.count + 'ratings' }}</span>
+    <span>{{ rating.count + ' ratings' }}</span>
   </div>
 </template>
 

@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-const { data: products } = await useFetch("https://fakestoreapi.com/products");
-
-console.log("Products: ", products.value);
+import mockData from '../../assets/mock/mock-ecommerce-data.json';
+const products = mockData;
+console.log(products);
 </script>
