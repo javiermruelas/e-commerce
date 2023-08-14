@@ -18,6 +18,6 @@ const stars = Math.floor(props.rating.rate);
 
 <style scoped>
 .star {
-  content: url("../assets/svgs/star-svgrepo-com.svg");
+  content: url("../assets/svgs/star_icon.svg");
 }
 </style>
