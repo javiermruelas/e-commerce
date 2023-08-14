@@ -1,7 +1,5 @@
 <template>
-    <header class="w-full">
-      <Hamburger :menu-open="menu" v-on:toggle-menu="toggleMenu"></Hamburger>
-
+    <header>
       <nav>
         <ul>
           <NuxtLink
@@ -19,12 +17,4 @@
 const props = defineProps<{
   headerLinks: { href: string; label: string }[];
 }>();
-
-const menu = ref(false);
-
-function toggleMenu() {
-  menu.value = !menu.value;
-}
 </script>
-
-<style scoped></style>
