@@ -1,7 +1,7 @@
 <template>
   <div class="flex px-4">
     <div v-for="(star, index) in stars" :key="index" class="inline-block">
-      <div class="star w-8 h-8"></div>
+      <Star class="w-4 h-4 fill-yellow-300"></Star>
     </div>
 
     <span>{{ rating.count + " ratings" }}</span>
@@ -9,6 +9,8 @@
 </template>
 
 <script lang="ts" setup>
+import Star from './svg/Star.vue';
+
 const props = defineProps<{
   rating: { rate: number; count: number };
 }>();
@@ -16,8 +18,4 @@ const props = defineProps<{
 const stars = Math.floor(props.rating.rate);
 </script>
 
-<style scoped>
-.star {
-  content: url("../assets/svgs/star_icon.svg");
-}
-</style>
+<style scoped></style>
