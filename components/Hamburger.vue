@@ -30,39 +30,30 @@ function toggleMenu() {
     height: 30px;
     width: 30px;
     outline: 1px solid #000;
+    padding: 2px;
+    overflow: hidden;
+    position: relative;
 }
 .line {
     width: 100%;
-    height: 2px;
+    height: 1px;
     background-color: #000;
+    transition: all 0.4s ease;
 }
 
-.close {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.menuIcon.close.line:nth-child(1) {
-
-}
-.menuIcon.close.line:nth-child(2) {
-    
-}
-.menuIcon.close.line:nth-child(3) {
-    
+.menuIcon.close .line {
+    margin: 5px 0;
 }
 
-.open {
-    
+.menuIcon.open .line:nth-child(1) {
+    transform: rotate(-45deg);
 }
-.menuIcon.open.line:nth-child(1) {
-
+.menuIcon.open .line:nth-child(2) {
+    transform: rotate(45deg);
+    position: relative;
+    top: -1px;
 }
-.menuIcon.open.line:nth-child(1) {
-
-}
-.menuIcon.open.line:nth-child(1) {
-
+.menuIcon.open .line:nth-child(3) {
+    display: none;
 }
 </style>

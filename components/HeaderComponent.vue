@@ -1,5 +1,5 @@
 <template>
-    <header class="w-full p-2 border-b-2">
+    <header class="w-full p-2 border-b-2 flex">
       <Hamburger :menu-open="menu" v-on:toggle-menu="toggleMenu"></Hamburger>
 
       <nav>
