@@ -1,7 +1,7 @@
 <template>
   <div class="flex px-4">
     <div v-for="(star, index) in stars" :key="index" class="inline-block">
-      <Star class="w-4 h-4 fill-yellow-300"></Star>
+      <Star class="w-4 h-4 text-yellow-300"></Star>
     </div>
 
     <span>{{ rating.count + " ratings" }}</span>
