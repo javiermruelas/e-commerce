@@ -10,7 +10,8 @@
 const headerLinks = [
   { href: "/products", label: "Products" },
   { href: "/sign-in", label: "Sign In" },
-  { href: "/account-settings", label: "Account Settings" },
   { href: "/cart", label: "Cart" },
 ];
 </script>
+
+<style scoped></style>

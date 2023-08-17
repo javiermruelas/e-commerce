@@ -27,6 +27,8 @@ function toggleMenu() {
 
 <style scoped>
 .menuIcon {
+    min-width: 30px;
+    min-height: 30px;
     height: 30px;
     width: 30px;
     outline: 1px solid #000;
