@@ -1,6 +1,6 @@
 <template>
     <header class="w-full h-20 p-2 border-b-2 flex items-center sticky top-0 bg-neutral-100">
-      <Hamburger :menu-open="menu" v-on:toggle-menu="toggleMenu"></Hamburger>
+      <Hamburger :showing-menu="showingMenu" v-on:toggle-menu="toggleMenu"></Hamburger>
 
       <nav class="w-full flex items-center">
         <ul class="w-full flex justify-end items-center">
@@ -27,12 +27,15 @@ const labelCss = "";
 
 const props = defineProps<{
   headerLinks: { href: string; label: string }[];
+  showingMenu: boolean;
 }>();
 
-const menu = ref(false);
+const emit = defineEmits<{
+  (e: 'toggle-menu'): void
+}>();
 
 function toggleMenu() {
-  menu.value = !menu.value;
+  emit('toggle-menu');
 }
 </script>
 

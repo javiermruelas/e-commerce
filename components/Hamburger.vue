@@ -8,21 +8,21 @@
 
 <script lang="ts" setup>
 const props = defineProps<{
-    "menuOpen": boolean
+    "showingMenu": boolean
 }>();
 
 const emit = defineEmits<{
   (e: 'toggle-menu'): void
-}>()
-
-const cssClassObj = computed(() => ({
-  open: props.menuOpen,
-  close: !props.menuOpen
-}));
+}>();
 
 function toggleMenu() {
     emit('toggle-menu');
 }
+
+const cssClassObj = computed(() => ({
+  open: props.showingMenu,
+  close: !props.showingMenu
+}));
 </script>
 
 <style scoped>
