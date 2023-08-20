@@ -1,6 +1,6 @@
 <template>
   <a href="#" class="block group">
-    <div class="shadow-sm bg-neutral-100 p-2 grid rounded">
+    <div class="shadow-md bg-neutral-100 p-2 grid rounded">
       <img
         :src="image"
         :alt="description"
