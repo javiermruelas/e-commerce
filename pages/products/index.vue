@@ -13,3 +13,12 @@
 import mockData from "../../assets/mock/mock-ecommerce-data.json";
 const products = mockData;
 </script>
+
+<style scoped>
+a:first-child {
+  margin: 5% 0 0 0;
+}
+a:last-child {
+  margin: 0 0 5% 0;
+}
+</style>

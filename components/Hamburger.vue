@@ -31,7 +31,6 @@ const cssClassObj = computed(() => ({
     min-height: 30px;
     height: 30px;
     width: 30px;
-    outline: 1px solid #000;
     padding: 2px;
     overflow: hidden;
     position: relative;
