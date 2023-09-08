@@ -1,5 +1,5 @@
 <template>
-    <div v-if="showMenu">
+    <div id="Menu" v-if="showMenu" class="absolute">
         <NuxtLink
         v-for="(link, index) in menuLinks"
         :key="index"
