@@ -1,0 +1,722 @@
+[
+  {
+    "product_name": "Jeans",
+    "price": 19.99,
+    "brand": "GlobalBuy",
+    "category": "Clothing",
+    "description": "Classic denim jeans that offer comfort and style for any occasion.",
+    "rating": {
+      "rate": 2.1,
+      "count": 35
+    },
+    "image": "https://images.unsplash.com/photo-1604176354204-9268737828e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+  },
+  {
+    "product_name": "Sneakers",
+    "price": 120.0,
+    "brand": "MegaMart",
+    "category": "Footwear",
+    "description": "High-quality sneakers for all occasions, designed for both comfort and style.",
+    "rating": {
+      "rate": 4.2,
+      "count": 100
+    },
+    "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80"
+  },
+  {
+    "product_name": "Headphones",
+    "price": 175.0,
+    "brand": "ValuePlus",
+    "category": "Electronics",
+    "description": "Immerse yourself in music with these stylish headphones that offer clear sound and noise isolation.",
+    "rating": {
+      "rate": 2.0,
+      "count": 50
+    },
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "product_name": "Phone case",
+    "price": 10.0,
+    "brand": "GlobalBuy",
+    "category": "Electronics",
+    "description": "Protect your phone with this sleek and durable phone case that combines style and functionality.",
+    "rating": {
+      "rate": 4.5,
+      "count": 80
+    },
+    "image": "https://images.unsplash.com/photo-1592320402243-605cc3e935f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Watch",
+    "price": 999.99,
+    "brand": "QuickBuy",
+    "category": "Accessories",
+    "description": "Elegant watch that adds a touch of sophistication to your attire.",
+    "rating": {
+      "rate": 2.1,
+      "count": 30
+    },
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+  },
+  {
+    "product_name": "Smartwatch",
+    "price": 300,
+    "brand": "QuickBuy",
+    "category": "Electronics",
+    "description": "Stay connected and track your activities with this versatile smartwatch.",
+    "rating": {
+      "rate": 4.1,
+      "count": 150
+    },
+    "image": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80"
+  },
+  {
+    "product_name": "External hard drive",
+    "price": 89.99,
+    "brand": "PrimeGoods",
+    "category": "Electronics",
+    "description": "Expand your storage capabilities with this reliable external hard drive.",
+    "rating": {
+      "rate": 2.2,
+      "count": 70
+    },
+    "image": "https://images.unsplash.com/photo-1613070541337-b40942ee6527?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Camera",
+    "price": 223.99,
+    "brand": "SmartDeals",
+    "category": "Electronics",
+    "description": "Capture precious moments in high resolution with this advanced camera.",
+    "rating": {
+      "rate": 5.0,
+      "count": 120
+    },
+    "image": "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "product_name": "Speaker",
+    "price": 868.99,
+    "brand": "ValuePlus",
+    "category": "Electronics",
+    "description": "Experience rich and immersive sound with these high-quality speakers.",
+    "rating": {
+      "rate": 4.8,
+      "count": 90
+    },
+    "image": "https://plus.unsplash.com/premium_photo-1677159499898-b061fb5bd2d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+  },
+  {
+    "product_name": "Bluetooth earbuds",
+    "price": 300.99,
+    "brand": "GlobalBuy",
+    "category": "Electronics",
+    "description": "Enjoy wireless audio freedom with these comfortable and stylish Bluetooth earbuds.",
+    "rating": {
+      "rate": 3.0,
+      "count": 60
+    },
+    "image": "https://images.unsplash.com/photo-1668649176554-3ad841a780d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Backpack",
+    "price": 29.99,
+    "brand": "ShopWise",
+    "category": "Bags",
+    "description": "Stylish and spacious backpack for your daily commuting needs.",
+    "rating": {
+      "rate": 1.0,
+      "count": 20
+    },
+    "image": "https://images.unsplash.com/photo-1509762774605-f07235a08f1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "product_name": "External hard drive",
+    "price": 99.0,
+    "brand": "QuickBuy",
+    "category": "Electronics",
+    "description": "Securely store and backup your important files with this portable external hard drive.",
+    "rating": {
+      "rate": 3.3,
+      "count": 40
+    },
+    "image": "https://images.unsplash.com/photo-1659535880591-78ed91b35158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "product_name": "Smartwatch",
+    "price": 399.99,
+    "brand": "SwiftMart",
+    "category": "Electronics",
+    "description": "Stay fit and connected with this sleek and feature-rich smartwatch.",
+    "rating": {
+      "rate": 1.1,
+      "count": 25
+    },
+    "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80"
+  },
+  {
+    "product_name": "Portable charger",
+    "price": 59.99,
+    "brand": "ValuePlus",
+    "category": "Electronics",
+    "description": "Never run out of battery on-the-go with this reliable portable charger.",
+    "rating": {
+      "rate": 3.6,
+      "count": 70
+    },
+    "image": "https://images.unsplash.com/photo-1619489646924-b4fce76b1db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "product_name": "Tablet",
+    "price": 149.99,
+    "brand": "PrimeGoods",
+    "category": "Electronics",
+    "description": "Powerful tablet for productivity and entertainment wherever you go.",
+    "rating": {
+      "rate": 4.7,
+      "count": 130
+    },
+    "image": "https://images.unsplash.com/photo-1561154464-82e9adf32764?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Gaming console",
+    "price": 300.0,
+    "brand": "GlobalBuy",
+    "category": "Electronics",
+    "description": "Experience the thrill of gaming with this high-performance gaming console.",
+    "rating": {
+      "rate": 4.4,
+      "count": 100
+    },
+    "image": "https://images.unsplash.com/photo-1605901309584-818e25960a8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1619&q=80"
+  },
+  {
+    "product_name": "Jeans",
+    "price": 149.99,
+    "brand": "GlobalBuy",
+    "category": "Clothing",
+    "description": "Classic denim jeans that offer comfort and style for any occasion.",
+    "rating": {
+      "rate": 2.1,
+      "count": 35
+    },
+    "image": "https://plus.unsplash.com/premium_photo-1674828600712-7d0caab39109?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=708&q=80"
+  },
+  {
+    "product_name": "Backpack",
+    "price": 247.99,
+    "brand": "SmartDeals",
+    "category": "Bags",
+    "description": "Durable and fashionable backpack designed to carry all your essentials.",
+    "rating": {
+      "rate": 2.2,
+      "count": 40
+    },
+    "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80"
+  },
+  {
+    "product_name": "T-shirt",
+    "price": 10.99,
+    "brand": "SuperSavings",
+    "category": "Clothing",
+    "description": "Comfortable and stylish T-shirt that complements your casual look.",
+    "rating": {
+      "rate": 4.7,
+      "count": 85
+    },
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80"
+  },
+  {
+    "product_name": "Virtual reality headset",
+    "price": 163.37,
+    "brand": "DiscountZone",
+    "category": "Electronics",
+    "description": "Step into a new world of virtual reality with this immersive headset.",
+    "rating": {
+      "rate": 4.6,
+      "count": 110
+    },
+    "image": "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+  },
+  {
+    "product_name": "Bookshelf",
+    "price": 129.99,
+    "brand": "HomeEssentials",
+    "category": "Furniture",
+    "description": "Organize your books and decor with this sturdy and stylish bookshelf.",
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    },
+    "image": "https://images.unsplash.com/photo-1543248939-4296e1fea89b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1474&q=80"
+  },
+  {
+    "product_name": "Dining Table",
+    "price": 299.95,
+    "brand": "EverySpace",
+    "category": "Furniture",
+    "description": "Gather friends and family around this elegant dining table for memorable meals.",
+    "rating": {
+      "rate": 4.7,
+      "count": 90
+    },
+    "image": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=804&q=80"
+  },
+  {
+    "product_name": "Lamp",
+    "price": 39.99,
+    "brand": "UrbanDecor",
+    "category": "Home Decor",
+    "description": "Illuminate your space with this modern and functional lamp design.",
+    "rating": {
+      "rate": 4.0,
+      "count": 60
+    },
+    "image": "https://images.unsplash.com/photo-1542728928-1413d1894ed1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+  },
+  {
+    "product_name": "Sofa",
+    "price": 499.0,
+    "brand": "CozyLiving",
+    "category": "Furniture",
+    "description": "Relax in comfort on this cozy sofa that adds charm to your living room.",
+    "rating": {
+      "rate": 4.8,
+      "count": 150
+    },
+    "image": "https://plus.unsplash.com/premium_photo-1672136336540-2dd39fd4d1e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80"
+  },
+  {
+    "product_name": "Kitchen Utensil Set",
+    "price": 24.95,
+    "brand": "CulinaryMaster",
+    "category": "Kitchen",
+    "description": "Upgrade your cooking experience with this versatile kitchen utensil set.",
+    "rating": {
+      "rate": 4.2,
+      "count": 50
+    },
+    "image": "https://images.unsplash.com/photo-1556185781-a47769abb7ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Wardrobe",
+    "price": 199.0,
+    "brand": "StyleInnovations",
+    "category": "Furniture",
+    "description": "Organize your clothes with this spacious and functional wardrobe solution.",
+    "rating": {
+      "rate": 3.9,
+      "count": 80
+    },
+    "image": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Coffee Table",
+    "price": 79.95,
+    "brand": "LivingSpaces",
+    "category": "Furniture",
+    "description": "Enhance your living space with this stylish and affordable coffee table.",
+    "rating": {
+      "rate": 4.3,
+      "count": 70
+    },
+    "image": "https://images.unsplash.com/photo-1594000311835-6d564e5a46b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=711&q=80"
+  },
+  {
+    "product_name": "Storage Box",
+    "price": 12.99,
+    "brand": "OrganizeIt",
+    "category": "Storage",
+    "description": "Keep your belongings organized with this practical and stackable storage box.",
+    "rating": {
+      "rate": 4.1,
+      "count": 40
+    },
+    "image": "https://images.unsplash.com/photo-1573376670774-4427757f7963?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+  },
+  {
+    "product_name": "Desk",
+    "price": 149.99,
+    "brand": "WorkspaceSolutions",
+    "category": "Furniture",
+    "description": "Create a productive workspace with this functional and modern desk design.",
+    "rating": {
+      "rate": 4.6,
+      "count": 100
+    },
+    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+  },
+  {
+    "product_name": "Curtains",
+    "price": 29.95,
+    "brand": "HomeElegance",
+    "category": "Home Decor",
+    "description": "Add privacy and style to your windows with these elegant curtains.",
+    "rating": {
+      "rate": 4.4,
+      "count": 65
+    },
+    "image": "https://images.unsplash.com/photo-1614590302821-3d96b26788ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Egyptian Cotton Sheets",
+    "price": 199.99,
+    "brand": "LuxeLiving",
+    "category": "Bedding",
+    "description": "Indulge in the ultimate comfort and luxury with these premium Egyptian cotton sheets.",
+    "rating": {
+      "rate": 4.9,
+      "count": 250
+    },
+    "image": "https://images.unsplash.com/photo-1633539091606-ee808c9f6c58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+  },
+  {
+    "product_name": "Crystal Glassware Set",
+    "price": 249.95,
+    "brand": "EleganceGems",
+    "category": "Dining",
+    "description": "Elevate your dining experience with this exquisite crystal glassware set.",
+    "rating": {
+      "rate": 4.8,
+      "count": 180
+    },
+    "image": "https://images.unsplash.com/photo-1518645666305-5f5e7469e52a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Silk Pillowcases",
+    "price": 129.99,
+    "brand": "OpulentDreams",
+    "category": "Bedding",
+    "description": "Enhance your beauty sleep with these luxurious silk pillowcases that are gentle on your skin.",
+    "rating": {
+      "rate": 4.7,
+      "count": 150
+    },
+    "image": "https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+  },
+  {
+    "product_name": "Aromatherapy Diffuser",
+    "price": 79.95,
+    "brand": "SerenitySpa",
+    "category": "Home Fragrance",
+    "description": "Create a soothing atmosphere with this stylish aromatherapy diffuser that enhances relaxation.",
+    "rating": {
+      "rate": 4.6,
+      "count": 130
+    },
+    "image": "https://images.unsplash.com/photo-1608571702346-bf078a741b19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Luxury Bath Towel Set",
+    "price": 149.0,
+    "brand": "PlushPalace",
+    "category": "Bath",
+    "description": "Wrap yourself in opulent comfort with this plush and absorbent luxury bath towel set.",
+    "rating": {
+      "rate": 4.5,
+      "count": 120
+    },
+    "image": "https://images.unsplash.com/photo-1617811449482-31093c8cee16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+  },
+  {
+    "product_name": "Silver Plated Flatware",
+    "price": 299.0,
+    "brand": "SilverElegance",
+    "category": "Dining",
+    "description": "Dine in style with this meticulously crafted silver plated flatware set.",
+    "rating": {
+      "rate": 4.4,
+      "count": 110
+    },
+    "image": "https://images.unsplash.com/photo-1633504498282-65189dc99557?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80"
+  },
+  {
+    "product_name": "Cashmere Throw Blanket",
+    "price": 349.99,
+    "brand": "LuxuryHaven",
+    "category": "Home Decor",
+    "description": "Experience the cozy warmth of cashmere with this elegant throw blanket.",
+    "rating": {
+      "rate": 4.3,
+      "count": 100
+    },
+    "image": "https://images.unsplash.com/photo-1598622444660-9d76ceeb7daf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
+  },
+  {
+    "product_name": "Espresso Machine",
+    "price": 799.95,
+    "brand": "CaffeineCouture",
+    "category": "Kitchen Appliances",
+    "description": "Brew cafe-quality espresso at home with this high-end espresso machine.",
+    "rating": {
+      "rate": 4.2,
+      "count": 90
+    },
+    "image": "https://images.unsplash.com/photo-1616035596458-2338800a1ff2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Wine Decanter Set",
+    "price": 189.99,
+    "brand": "VineyardElegance",
+    "category": "Dining",
+    "description": "Elevate your wine tasting experience with this elegant wine decanter set.",
+    "rating": {
+      "rate": 4.1,
+      "count": 80
+    },
+    "image": "https://images.unsplash.com/photo-1561668137-58955d51a5fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Luxury Shower Head",
+    "price": 129.95,
+    "brand": "RainfallDeluxe",
+    "category": "Bath",
+    "description": "Transform your shower into a spa-like retreat with this luxurious rainfall shower head.",
+    "rating": {
+      "rate": 4.0,
+      "count": 70
+    },
+    "image": "https://images.unsplash.com/photo-1516147303597-2445c99ee744?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+  },
+  {
+    "product_name": "Velvet Upholstered Chair",
+    "price": 599.0,
+    "brand": "VelvetVogue",
+    "category": "Furniture",
+    "description": "Add a touch of glamour to your space with this elegant velvet upholstered chair.",
+    "rating": {
+      "rate": 3.9,
+      "count": 60
+    },
+    "image": "https://images.unsplash.com/photo-1671500073441-06bf5f3123c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80"
+  },
+  {
+    "product_name": "Crystal Chandelier",
+    "price": 799.99,
+    "brand": "CrystalElegance",
+    "category": "Home Decor",
+    "description": "Illuminate your home with the dazzling beauty of this crystal chandelier.",
+    "rating": {
+      "rate": 3.8,
+      "count": 50
+    },
+    "image": "https://plus.unsplash.com/premium_photo-1676321688607-2d18ba129dbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+  },
+  {
+    "product_name": "Bar Cart",
+    "price": 349.0,
+    "brand": "BaroqueBoulevard",
+    "category": "Furniture",
+    "description": "Entertain in style with this elegant bar cart that adds sophistication to your home.",
+    "rating": {
+      "rate": 3.6,
+      "count": 30
+    },
+    "image": "https://images.unsplash.com/photo-1672544736274-c1fff04a52b4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+  },
+  {
+    "product_name": "Gold-plated Cutlery Set",
+    "price": 249.99,
+    "brand": "GoldGlamour",
+    "category": "Dining",
+    "description": "Dine like royalty with this opulent gold-plated cutlery set that exudes luxury.",
+    "rating": {
+      "rate": 3.5,
+      "count": 20
+    },
+    "image": "https://images.unsplash.com/photo-1667450603370-6b86aa5670b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80"
+  },
+  {
+    "product_name": "Luxury Scented Candle",
+    "price": 79.95,
+    "brand": "ScentedSplendor",
+    "category": "Home Fragrance",
+    "description": "Set the mood with the exquisite aroma of this luxury scented candle.",
+    "rating": {
+      "rate": 3.4,
+      "count": 10
+    },
+    "image": "https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
+  },
+  {
+    "product_name": "Marble Cheese Board",
+    "price": 89.99,
+    "brand": "MarbleElegance",
+    "category": "Kitchen",
+    "description": "Elevate your cheese presentation with this sophisticated marble cheese board.",
+    "rating": {
+      "rate": 3.3,
+      "count": 5
+    },
+    "image": "https://plus.unsplash.com/premium_photo-1675150857016-ddfdcc6fe292?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=654&q=80"
+  },
+  {
+    "product_name": "Luxury Bath Mat",
+    "price": 59.95,
+    "brand": "PlushComforts",
+    "category": "Bath",
+    "description": "Step onto the softness of this luxury bath mat that pampers your feet.",
+    "rating": {
+      "rate": 3.2,
+      "count": 3
+    },
+    "image": "https://images.unsplash.com/photo-1517414628894-83d47b22f233?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
+  },
+  {
+    "product_name": "Luxury Perfume",
+    "price": 59.95,
+    "brand": "AlureScents",
+    "category": "Bath",
+    "description": "Smell heavenly with this luxury perfume that is sure to last all night.",
+    "rating": {
+      "rate": 4.5,
+      "count": 300
+    },
+    "image": "https://images.unsplash.com/photo-1590156221719-02e2d5ae7345?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80"
+  },
+  {
+    "product_name": "LED TV",
+    "price": 499.99,
+    "brand": "TechVision",
+    "category": "Electronics",
+    "description": "Experience stunning visuals with this high-definition LED TV.",
+    "rating": {
+      "rate": 4.6,
+      "count": 300
+    },
+    "image": "https://images.unsplash.com/photo-1567690187548-f07b1d7bf5a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1036&q=80"
+  },
+  {
+    "product_name": "Wireless Router",
+    "price": 79.95,
+    "brand": "NetConnect",
+    "category": "Electronics",
+    "description": "Stay connected with fast and reliable wireless performance.",
+    "rating": {
+      "rate": 4.2,
+      "count": 200
+    },
+    "image": "https://images.unsplash.com/photo-1606904825846-647eb07f5be2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+  },
+  {
+    "product_name": "Bluetooth Speaker",
+    "price": 59.99,
+    "brand": "SoundWave",
+    "category": "Electronics",
+    "description": "Enjoy your favorite tunes with this portable and wireless Bluetooth speaker.",
+    "rating": {
+      "rate": 4.0,
+      "count": 180
+    },
+    "image": "https://images.unsplash.com/photo-1589003077984-894e133dabab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80"
+  },
+  {
+    "product_name": "Wireless Earbuds",
+    "price": 129.95,
+    "brand": "AudioFreedom",
+    "category": "Electronics",
+    "description": "Experience wireless freedom and immersive sound with these premium wireless earbuds.",
+    "rating": {
+      "rate": 4.5,
+      "count": 250
+    },
+    "image": "https://images.unsplash.com/photo-1590658006821-04f4008d5717?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2832&q=80"
+  },
+  {
+    "product_name": "Laptop",
+    "price": 799.0,
+    "brand": "TechMaster",
+    "category": "Computers",
+    "description": "Stay productive and entertained with this powerful and sleek laptop.",
+    "rating": {
+      "rate": 4.3,
+      "count": 220
+    },
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+  },
+  {
+    "product_name": "Gaming Console",
+    "price": 399.99,
+    "brand": "GameX",
+    "category": "Gaming",
+    "description": "Immerse yourself in gaming adventures with this cutting-edge gaming console.",
+    "rating": {
+      "rate": 4.7,
+      "count": 280
+    },
+    "image": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=654&q=80"
+  },
+  {
+    "product_name": "Microwave Oven",
+    "price": 89.95,
+    "brand": "KitchenEssentials",
+    "category": "Appliances",
+    "description": "Efficiently heat and cook your meals with this versatile microwave oven.",
+    "rating": {
+      "rate": 4.1,
+      "count": 170
+    },
+    "image": "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+  },
+  {
+    "product_name": "Wireless Mouse",
+    "price": 29.99,
+    "brand": "MouseTech",
+    "category": "Computers",
+    "description": "Enhance your computer experience with this ergonomic wireless mouse.",
+    "rating": {
+      "rate": 4.4,
+      "count": 190
+    },
+    "image": "https://images.unsplash.com/photo-1586349906319-48d20e9d17e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+  },
+  {
+    "product_name": "Smartphone",
+    "price": 599.0,
+    "brand": "TechWave",
+    "category": "Electronics",
+    "description": "Stay connected and productive on-the-go with this feature-packed smartphone.",
+    "rating": {
+      "rate": 4.8,
+      "count": 320
+    },
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=654&q=80"
+  },
+  {
+    "product_name": "Fitness Tracker",
+    "price": 89.95,
+    "brand": "FitLife",
+    "category": "Fitness",
+    "description": "Track your health and fitness goals with this stylish and smart fitness tracker.",
+    "rating": {
+      "rate": 4.2,
+      "count": 180
+    },
+    "image": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+  },
+  {
+    "product_name": "Blender",
+    "price": 49.99,
+    "brand": "KitchenPro",
+    "category": "Appliances",
+    "description": "Blend your way to delicious smoothies and recipes with this efficient blender.",
+    "rating": {
+      "rate": 4.3,
+      "count": 210
+    },
+    "image": "https://images.unsplash.com/photo-1585237672814-8f85a8118bf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1555&q=80"
+  },
+  {
+    "product_name": "Digital Camera",
+    "price": 299.95,
+    "brand": "CaptureLife",
+    "category": "Electronics",
+    "description": "Capture memories with stunning clarity using this advanced digital camera.",
+    "rating": {
+      "rate": 4.0,
+      "count": 160
+    },
+    "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80"
+  }
+]

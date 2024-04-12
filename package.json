@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "lint": "eslint --fix --ext .js,.ts,.vue .",
+    "format": "npx prettier . --write",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -15,11 +16,20 @@
     "@types/node": "^18",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
+    "@vueuse/core": "^10.2.1",
+    "@vueuse/nuxt": "^10.2.1",
+    "autoprefixer": "^10.4.14",
     "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-vue": "^9.15.1",
-    "nuxt": "^3.6.1"
+    "nuxt": "^3.6.1",
+    "postcss": "^8.4.25",
+    "prettier": "3.0.0",
+    "tailwindcss": "^3.3.2"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "axios": "^1.4.0",
     "pinia": "^2.1.4"
   }
 }
